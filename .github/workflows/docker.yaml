@@ -57,7 +57,8 @@ jobs:
 
     - name: Build and push image Aliyun
       run: |
-        docker login $TCR_REGISTRY -username $TCR_REGISTRY_USER -password $TCR_REGISTRY_PASSWORD 
+        # docker login $TCR_REGISTRY -username $TCR_REGISTRY_USER -password $TCR_REGISTRY_PASSWORD 
+        docker login gkdcr.tencentcloudcr.com --username 100020981346 --password eyJhbGciOiJSUzI1NiIsImtpZCI6Ik5aTDc6T1g0NjoySDJaOjVVVUk6RTYyRjpXNlRGOkRLRDY6NlRSUjozTVlEOlpSNlU6SDdLUjpOUlcyIn0.eyJvd25lclVpbiI6IjEwMDAxNDU3MDg5OSIsIm9wZXJhdG9yVWluIjoiMTAwMDIwOTgxMzQ2IiwiZXhwIjoxNzIzMDAxMTU3LCJuYmYiOjE3MjI5OTc1NTcsImlhdCI6MTcyMjk5NzU1N30.N4zqU3HrY1z0y-LeNZZDdaZP6dyUZTm_JY0mO3E3C-BjMyY6npFrunBpId7k_rFm5Z_--R2cwSVnFcDgn1ErvzJBDtgYXgrnt8t9ZfB9fCy5ISeb6XxXr45hHyNp19x8DsRLr4c9l_Zfe37st8NFc3PAsMzA613Xn26kUAY5DjYJJg9Mh8Kyeshcw9Zj4Zgtr38mlJQU1jD_OCTLw8eAulth70VvfStpwigPuoT2NHGZagkwW7CVzc5W_YNoI1blopRCPMMMF8G0Yh0DIzY4PrI-5h7KtGwZz5VxjfMWeiWj-tLJQivs04Io7nB7ydYzANLI0-CzDFt_Vjwh1ff32g
         # 数据预处理,判断镜像是否重名
         declare -A duplicate_images
         declare -A temp_map
