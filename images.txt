@@ -10,6 +10,6 @@ us-docker.pkg.dev/agones-images/release/agones-extensions:1.42.0
 us-docker.pkg.dev/agones-images/release/agones-controller:1.42.0
 us-docker.pkg.dev/agones-images/release/agones-allocator:1.42.0
 us-docker.pkg.dev/agones-images/release/agones-sdk:1.42.0
-us-docker.pkg.dev/agones-images/examples/simple-game-server:0.34
 imroc/tke-extend-network-controller:0.1.8
 gcr.io/distroless/static-debian12:nonroot
+gcr.io/distroless/static:nonroot
