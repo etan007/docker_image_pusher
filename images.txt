@@ -5,11 +5,11 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 #agones私有镜像
-us-docker.pkg.dev/agones-images/release/agones-ping:1.42.0
-us-docker.pkg.dev/agones-images/release/agones-extensions:1.42.0
-us-docker.pkg.dev/agones-images/release/agones-controller:1.42.0
-us-docker.pkg.dev/agones-images/release/agones-allocator:1.42.0
-us-docker.pkg.dev/agones-images/release/agones-sdk:1.42.0
+us-docker.pkg.dev/agones-images/release/agones-ping:1.43.0
+us-docker.pkg.dev/agones-images/release/agones-extensions:1.43.0
+us-docker.pkg.dev/agones-images/release/agones-controller:1.43.0
+us-docker.pkg.dev/agones-images/release/agones-allocator:1.43.0
+us-docker.pkg.dev/agones-images/release/agones-sdk:1.43.0
 imroc/tke-extend-network-controller:0.1.8
 gcr.io/distroless/static-debian12:nonroot
 gcr.io/distroless/static:nonroot
