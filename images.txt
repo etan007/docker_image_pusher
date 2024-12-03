@@ -13,3 +13,4 @@ us-docker.pkg.dev/agones-images/release/agones-sdk:1.43.0
 imroc/tke-extend-network-controller:1.1.0
 gcr.io/distroless/static-debian12:nonroot
 gcr.io/distroless/static:nonroot
+
