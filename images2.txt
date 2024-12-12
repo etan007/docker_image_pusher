@@ -1,1 +1,2 @@
 gcr.io/distroless/cc-debian11:nonroot
+debian:bullseye
