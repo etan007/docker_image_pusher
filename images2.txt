@@ -1,2 +1,4 @@
 gcr.io/distroless/cc-debian11:nonroot
 debian:bullseye
+docker:stable
+docker:bind
