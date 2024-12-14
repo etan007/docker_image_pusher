@@ -2,4 +2,4 @@
 #debian:bullseye
 #docker:stable
 #docker:dind
-docker:latest
+docker
