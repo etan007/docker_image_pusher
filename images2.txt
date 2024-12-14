@@ -2,4 +2,4 @@
 #debian:bullseye
 #docker:stable
 #docker:dind
-docker:20.10.6-dind
+docker:latest
