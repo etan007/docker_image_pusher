@@ -1,4 +1,4 @@
 #gcr.io/distroless/cc-debian11:nonroot
 #debian:bullseye
 #docker:stable
-registry-1.docker.io/v2/docker:dind
+docker:dind
