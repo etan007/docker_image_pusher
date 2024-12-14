@@ -2,5 +2,4 @@
 #debian:bullseye
 #docker:stable
 #docker:dind
-docker:27.4-dind
 docker:27.4
