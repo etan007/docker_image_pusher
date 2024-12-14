@@ -1,4 +1,5 @@
 #gcr.io/distroless/cc-debian11:nonroot
 #debian:bullseye
 #docker:stable
-docker:dind
+#docker:dind
+docker:20.10.6-dind
