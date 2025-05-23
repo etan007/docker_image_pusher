@@ -4,4 +4,5 @@
 #docker:dind
 #docker:26.1.4
 #docker:26.1.4-dind
-radial/busyboxplus:curl
+#radial/busyboxplus:curl
+ubuntu
